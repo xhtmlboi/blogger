@@ -12,7 +12,7 @@ build: [
 ]
 
 license: "GPL-3.0-or-later"
-tags: [ "angry" "cuisine" "nerd" "ocaml" "preface" ]
+tags: [ "blog" "ocaml" "preface" ]
 homepage: "https://github.com/xhtmlboi/blogger"
 dev-repo: "git://github.com/xhtmlboi/blogger.git"
 bug-reports: "https://github.com/xhtmlboi/blogger/issues"
@@ -23,17 +23,9 @@ depends: [
   "preface" { >= "0.1.0" }
   "logs" {>= "0.7.0" }
   "cmdliner" { >= "1.0.0"}
-  "yocaml" {pinned}
-  "yocaml_unix" {pinned}
-  "yocaml_yaml" {pinned}
-  "yocaml_markdown" {pinned}
-  "yocaml_jingoo" {pinned}
-]
-
-pin-depends: [
-  ["yocaml.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
-  ["yocaml_unix.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
-  ["yocaml_yaml.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
-  ["yocaml_markdown.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
-  ["yocaml_jingoo.dev" "git+https://github.com/xhtmlboi/yocaml.git"]
+  "yocaml"
+  "yocaml_unix"
+  "yocaml_yaml"
+  "yocaml_markdown"
+  "yocaml_jingoo"
 ]
